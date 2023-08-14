@@ -20,7 +20,7 @@ function About() {
                         <AboutCard
                             image="https://i.imgur.com/mCmGNCo.jpg"
                             name="Sushant Kumar Bishoi"
-                            desc="Lead || Full Stack Developer"
+                            desc="Lead || MERN Stack Developer"
                         />
                         <AboutCard
                             image="https://i.imgur.com/6QtS2vS.jpg"
@@ -30,7 +30,7 @@ function About() {
                         <AboutCard 
                             image="https://i.imgur.com/BdYM6pn.jpg"
                             name="Vivek Saha"
-                            desc="Technical || Front-End Developer"
+                            desc="Technical || MERN Developer"
                         />
                         <AboutCard 
                             image=""
