@@ -1,0 +1,7 @@
+span .logo{
+    color: rgb(106, 125, 245);
+}
+.navbar{
+    position: relative;
+    z-index: 2;
+}
