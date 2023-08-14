@@ -10,25 +10,35 @@ SwiperCore.use([EffectCoverflow, Pagination]);
 
 const eventsData = [
   {
-    title: "Node Js | Express Js Workshop",
-    name: "Ayush Sharma",
-    imageSrc: "https://i.ytimg.com/vi/wVo-UMit5Ig/maxresdefault.jpg",
+    title: "Mastering JavaScript",
+    name: "By Ankit Chodhury || Vivek Saha",
+    imageSrc: "https://i.imgur.com/z1GkN1D.jpg",
+    date: "Date - 18th August",
+    time: " Time - 6:30pm to 8:30pm",
+    venue: "Venue - Smart Class Lab",
     description:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus maiores tempore nulla accusamus quos non veritatis tempora ipsam eligendi? Mollitia?",
+      "Join us for an immersive workshop on JavaScript, where we'll dive deep into the fundamentals and advanced concepts of the language.",
   },
   {
-    title: "MongoDb Workshop",
-    name: "By Sushant Bishoi",
+    title: "Web Applications with Node.js and Express.js",
+    name: "By Naimish Sahu || Satyam Mohanty",
+    imageSrc: "",
+    description:
+      "Discover the world of server-side JavaScript with Node.js and Express.js. This event will equip you with the knowledge and tools to create robust, scalable web applications.",
+  },
+  {
+    title: "MongoDB & Mongoose",
+    name: "By Naimish Sahu || Vivek Saha",
     imageSrc: "https://webimages.mongodb.com/_com_assets/cms/kuzt9r42or1fxvlq2-Meta_Generic.png",
     description:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus maiores tempore nulla accusamus quos non veritatis tempora ipsam eligendi? Mollitia?",
+      "Get ready to explore the wonders of NoSQL databases with MongoDB and Mongoose. In this event, we'll delve into the world of document-based data storage and learn how to interact with MongoDB using Mongoose, a powerful ODM (Object Data Modeling) library",
   },
   {
-    title: "Security and Auth Workshop",
-    name: "By Sushant Bishoi",
-    imageSrc: "https://www.indusface.com/wp-content/uploads/2020/07/why-authentication-alone-is-not-enough-web-app-security.png",
+    title: "MVC Architecture for Web Applications",
+    name: "By Ayush Sharma || Naimish Sahu",
+    imageSrc: "https://webimages.mongodb.com/_com_assets/cms/kuzt9r42or1fxvlq2-Meta_Generic.png",
     description:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus maiores tempore nulla accusamus quos non veritatis tempora ipsam eligendi? Mollitia?",
+      "Are you curious about how modern web applications are structured? Join us for a comprehensive overview of the Model-View-Controller (MVC) architecture.",
   },
 ];
 
@@ -58,6 +68,8 @@ const Event = () => {
             <div className="card_content">
               <span className="card_title">{event.title}</span>
               <span className="card_name">{event.name}</span>
+              <span className="card_name">{event.date}</span>
+              <span className="card_name">{event.venue}</span>
               <p className="card_text" style={{ color: "black" }}>
                 {event.description}
               </p>
