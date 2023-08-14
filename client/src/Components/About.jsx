@@ -13,7 +13,7 @@ function About() {
 
                     <div class="grid gap-8 mt-8 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
                         <AboutCard
-                            image=""
+                            image="https://i.imgur.com/QXXHg7B.jpg"
                             name="Ankit Choudhary"
                             desc="Lead || Back-End Developer"
                         />
@@ -43,7 +43,7 @@ function About() {
                             desc="Technical || Front-End Developer"
                         />
                         <AboutCard 
-                            image=""
+                            image="https://i.imgur.com/cnGchIH.jpg"
                             name="Shashwat Tripathy"
                             desc="Technical || Front-End Developer"
                         />

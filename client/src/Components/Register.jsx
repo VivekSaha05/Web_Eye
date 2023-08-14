@@ -25,13 +25,13 @@ function Register() {
     });
   };
 
-  const submitHandler = async (req, res) => {
+  const submitHandler = async () => {
     const { fName, lName, phno, email, year, rollno } = user;
     if (fName && lName && phno && email && rollno && year) {
       try {
         const res = await axios.post("http://localhost:3001/form", user);
-        alert(res.data.message)
-        navigate("/")
+        alert(res.data.message);
+        navigate("/");
       } catch (error) {
         alert("Some error occured");
         navigate("/register");
