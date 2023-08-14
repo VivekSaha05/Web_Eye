@@ -9,6 +9,7 @@ import {
 } from "react-router-dom";
 import Register from './Components/Register';
 import LeaderBoard from './Components/LeaderBoard';
+import Alert from './Components/Alert';
 
 
 const router = createBrowserRouter([
@@ -27,6 +28,10 @@ const router = createBrowserRouter([
   {
     path: "/leaderboard",
     element: <LeaderBoard />,
+  },
+  {
+    path: "/alert",
+    element: <Alert />,
   },
 ]);
 ReactDOM.render(

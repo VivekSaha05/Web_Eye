@@ -1,6 +1,8 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
 import React from "react";
+import Alert from "./Alert";
 import "swiper/swiper.min.css";
+import {Link} from "react-router-dom";
 import "swiper/components/pagination/pagination.min.css";
 import SwiperCore, { EffectCoverflow, Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -45,7 +47,7 @@ const eventsData = [
 const Event = () => {
   return (
     <div className="event-container">
-        <h1 className="event-tittle">Upcoming Events</h1>
+      <h1 className="event-title">Upcoming Events</h1>
       <Swiper
         effect="coverflow"
         grabCursor
@@ -73,7 +75,16 @@ const Event = () => {
               <p className="card_text" style={{ color: "black" }}>
                 {event.description}
               </p>
-              <button className="card_btn">View More</button>
+              {/* Use index to conditionally set the route */}
+              {index === 0 ? (
+                <Link to="/register" className="card_link">
+                  <button className="card_btn">View More</button>
+                </Link>
+              ) : (
+                <Link to="/alert" className="card_link">
+                  <button className="card_btn">View More</button>
+                </Link>
+              )}
             </div>
           </SwiperSlide>
         ))}
