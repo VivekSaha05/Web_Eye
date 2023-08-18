@@ -21,7 +21,7 @@ function Contact() {
     const { name, email, message } = contact;
     if (name && email && message) {
       try {
-        const res = await axios.post("http://localhost:3001/contact", contact);
+        const res = await axios.post("http://localhost:3001/api/contact", contact);
         alert(res.data.message);
       } catch (error) {
         console.log(error);

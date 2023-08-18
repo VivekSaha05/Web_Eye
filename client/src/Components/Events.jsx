@@ -2,7 +2,7 @@
 import React from "react";
 import Alert from "./Alert";
 import "swiper/swiper.min.css";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 import "swiper/components/pagination/pagination.min.css";
 import SwiperCore, { EffectCoverflow, Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -31,14 +31,16 @@ const eventsData = [
   {
     title: "MongoDB & Mongoose",
     name: "By Naimish Sahu || Vivek Saha",
-    imageSrc: "https://webimages.mongodb.com/_com_assets/cms/kuzt9r42or1fxvlq2-Meta_Generic.png",
+    imageSrc:
+      "https://webimages.mongodb.com/_com_assets/cms/kuzt9r42or1fxvlq2-Meta_Generic.png",
     description:
       "Get ready to explore the wonders of NoSQL databases with MongoDB and Mongoose. In this event, we'll delve into the world of document-based data storage and learn how to interact with MongoDB using Mongoose, a powerful ODM (Object Data Modeling) library",
   },
   {
     title: "MVC Architecture for Web Applications",
     name: "By Ayush Sharma || Naimish Sahu",
-    imageSrc: "https://webimages.mongodb.com/_com_assets/cms/kuzt9r42or1fxvlq2-Meta_Generic.png",
+    imageSrc:
+      "https://webimages.mongodb.com/_com_assets/cms/kuzt9r42or1fxvlq2-Meta_Generic.png",
     description:
       "Are you curious about how modern web applications are structured? Join us for a comprehensive overview of the Model-View-Controller (MVC) architecture.",
   },
