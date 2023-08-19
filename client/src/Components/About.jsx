@@ -80,7 +80,7 @@ function About() {
                         />
                         <AboutCard 
                             image="https://i.imgur.com/wp2s2pg.jpg"
-                            name="Debasis Mohanty"
+                            name="Debasis Mohapatra"
                             desc="Poster || Management"
                         />
                     </div>
