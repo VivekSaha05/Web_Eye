@@ -29,6 +29,7 @@ function Register() {
     const { fName, lName, phno, email, year, rollno } = user;
     if (fName && lName && phno && email && rollno && year) {
       try {
+        // alert("Do now")
         const res = await axios.post("http://localhost:3001/api/form", user);
         alert(res.data.message);
         navigate("/");

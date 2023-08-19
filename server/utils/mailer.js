@@ -1,4 +1,4 @@
-const mailer = require("nodemailer");
+const nodemailer = require("nodemailer");
 
 exports.mailer = async (user) => {
     const transporter = nodemailer.createTransport({
@@ -17,3 +17,7 @@ exports.mailer = async (user) => {
     });
     console.log(info.messageId);
   };
+
+
+
+//   MONGODB_URI = mongodb+srv://officialwebeye:webeye2023@session0.xotgpxg.mongodb.net/Participants
