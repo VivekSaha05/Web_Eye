@@ -33,7 +33,7 @@ function About() {
                             desc="Technical || MERN Developer"
                         />
                         <AboutCard 
-                            image=""
+                            image="https://i.imgur.com/4gm137P.jpg"
                             name="Namish Kumar Sahu"
                             desc="Technical || Back-End Developer"
                         />
