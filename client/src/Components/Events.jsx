@@ -49,7 +49,7 @@ const eventsData = [
 const Event = () => {
   return (
     <div className="event-container">
-      <h1 className="event-title" style="font-size: 36px; text-align: center;">Upcoming Events</h1>
+      <h1 className="event-title" style={{fontSize: '36px', textAlign: 'center'}}>Upcoming Events</h1>
       <Swiper
         effect="coverflow"
         grabCursor
