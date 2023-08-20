@@ -9,7 +9,7 @@
 }
 
 .back {
-    background-color: #f7cdcd;
+    background-color: #ffffff;
     /* position: fixed; */
     position: relative;
     width: 100%;
@@ -88,7 +88,7 @@ table {
 
 thead {
     font-size: 1rem;
-    color: #589;
+    color: rgb(27, 37, 41);
     text-transform: uppercase;
 }
 tbody{

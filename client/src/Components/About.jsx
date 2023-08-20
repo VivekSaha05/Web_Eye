@@ -30,7 +30,7 @@ function About() {
                         <AboutCard 
                             image="https://i.imgur.com/BdYM6pn.jpg"
                             name="Vivek Saha"
-                            desc="Technical || MERN Developer"
+                            desc="Technical || MERN Stack Developer"
                         />
                         <AboutCard 
                             image="https://i.imgur.com/4gm137P.jpg"

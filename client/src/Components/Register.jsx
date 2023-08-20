@@ -64,7 +64,7 @@ function Register() {
                     type="text"
                     name="fName"
                     value={user.fName}
-                    placeholder="Sushant"
+                    placeholder="Vivek"
                     class="block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-purple-400 dark:focus:border-purple-400 focus:ring-purple-400 focus:outline-none focus:ring focus:ring-opacity-40"
                     onChange={eventHandler}
                   />
@@ -77,7 +77,7 @@ function Register() {
                     type="text"
                     name="lName"
                     value={user.lName}
-                    placeholder="Bishoi"
+                    placeholder="Saha"
                     class="block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-purple-400 dark:focus:border-purple-400 focus:ring-purple-400 focus:outline-none focus:ring focus:ring-opacity-40"
                     onChange={eventHandler}
                   />
@@ -90,7 +90,7 @@ function Register() {
                     type="text"
                     name="phno"
                     value={user.phno}
-                    placeholder="XXX-XX-XXXX-XXX"
+                    placeholder="XXX-XXXX-XXX"
                     class="block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-purple-400 dark:focus:border-purple-400 focus:ring-purple-400 focus:outline-none focus:ring focus:ring-opacity-40"
                     onChange={eventHandler}
                   />
@@ -103,7 +103,7 @@ function Register() {
                     type="email"
                     name="email"
                     value={user.email}
-                    placeholder="skb@example.com"
+                    placeholder="21csexxx.viveksaha@giet.edu"
                     class="block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-purple-400 dark:focus:border-purple-400 focus:ring-purple-400 focus:outline-none focus:ring focus:ring-opacity-40"
                     onChange={eventHandler}
                   />

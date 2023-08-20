@@ -15,7 +15,7 @@ const eventsData = [
     title: "Mastering JavaScript",
     name: "By Ankit Chodhury || Vivek Saha",
     imageSrc: "https://i.imgur.com/z1GkN1D.jpg",
-    date: "Date - 18th August",
+    date: "Date - 23rd August",
     time: " Time - 6:30pm to 8:30pm",
     venue: "Venue - Smart Class Lab",
     description:
@@ -24,7 +24,7 @@ const eventsData = [
   {
     title: "Web Applications with Node.js and Express.js",
     name: "By Naimish Sahu || Satyam Mohanty",
-    imageSrc: "",
+    imageSrc: "https://res.cloudinary.com/practicaldev/image/fetch/s--rQS9VcWG--/c_imagga_scale,f_auto,fl_progressive,h_720,q_auto,w_1280/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/zojuy79lo3fn3qdt7g6p.png",
     description:
       "Discover the world of server-side JavaScript with Node.js and Express.js. This event will equip you with the knowledge and tools to create robust, scalable web applications.",
   },
@@ -40,7 +40,7 @@ const eventsData = [
     title: "MVC Architecture for Web Applications",
     name: "By Ayush Sharma || Naimish Sahu",
     imageSrc:
-      "https://webimages.mongodb.com/_com_assets/cms/kuzt9r42or1fxvlq2-Meta_Generic.png",
+      "https://www.codeproject.com/KB/aspnet/669195/image002.png",
     description:
       "Are you curious about how modern web applications are structured? Join us for a comprehensive overview of the Model-View-Controller (MVC) architecture.",
   },
@@ -49,7 +49,7 @@ const eventsData = [
 const Event = () => {
   return (
     <div className="event-container">
-      <h1 className="event-title">Upcoming Events</h1>
+      <h1 className="event-title" style="font-size: 36px; text-align: center;">Upcoming Events</h1>
       <Swiper
         effect="coverflow"
         grabCursor
