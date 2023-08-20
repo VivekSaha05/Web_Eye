@@ -30,7 +30,7 @@ function Register() {
     if (fName && lName && phno && email && rollno && year) {
       try {
         // alert("Do now")
-        const res = await axios.post("http://localhost:3001/api/form", user);
+        const res = await axios.post("https://webeye-gietu-api.vercel.app/", user);
         alert(res.data.message);
         navigate("/");
       } catch (error) {
